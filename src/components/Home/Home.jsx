@@ -6,10 +6,23 @@ function Home() {
     return (
         <div className="home">
             <div className="home_container">
-                <div className="home_image">
-
+                <img src="https://www.x-cart.com/wp-content/uploads/2019/01/ecommerce-768x278.jpg" alt="" className="home_image" />
+                
+                <div className="home_row">
+                    <Product />
+                    <Product />
                 </div>
-                <Product />
+
+                <div className="home_row">
+                    <Product />
+                    <Product />
+                    <Product />
+                </div>
+
+                <div className="home_row">
+                    <Product />
+                </div>
+                
             </div>
         </div>
     )
